@@ -4,10 +4,10 @@ st.title("🍽️ Menú del Comedor Escolar")
 st.write("Reserva tu almuerzo del día")
 
 menu = {
-    "Lunes": "Milanesa con arroz",
+    "Lunes": "Voy a cambiar algo",
     "Martes": "Ensalada de quinoa",
     "Miércoles": "Pollo al horno con papas",
-    "Jueves": "Pasta con pollo .--- prueba de cambio",
+    "Jueves": "Pasta con pollo .--- prueba de",
     "Viernes": "Hamburguesa vegetal"
 }
 
