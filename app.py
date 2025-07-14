@@ -98,7 +98,7 @@ chart = alt.Chart(df).mark_circle().encode(    x='x', y='y', size='z', color='z'
 st.altair_chart(chart, use_container_width=True)
 
 import streamlit as st
-import graphvizst.graphviz_
+import graphviz as graphviz_
 chart('''
       digraph {
       Big_shark -> Tuna
