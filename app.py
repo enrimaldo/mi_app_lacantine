@@ -48,3 +48,9 @@ st.file_uploader('Upload a photo')
 st.color_picker('Choose your favorite color')
 
 st.balloons()  # Celebration balloonsst.progress(10)  # Progress barwith st.spinner('Wait for it...'):    time.sleep(10)  # Simulating a process delay
+
+st.success("You did it!")
+st.error("Error occurred")
+st.warning("This is a warning")
+st.info("It's easy to build a Streamlit app")
+st.exception(RuntimeError("RuntimeError exception"))
