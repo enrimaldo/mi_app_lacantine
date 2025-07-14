@@ -106,4 +106,4 @@ chart('''
       Mackerel -> Small_fishes
       Small_fishes -> Shrimp
       }
-''')
+    ''')
