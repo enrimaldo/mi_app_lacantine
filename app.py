@@ -99,4 +99,11 @@ st.altair_chart(chart, use_container_width=True)
 
 import streamlit as st
 import graphvizst.graphviz_
-chart('''    digraph {        Big_shark -> Tuna        Tuna -> Mackerel        Mackerel -> Small_fishes        Small_fishes -> Shrimp    }''')
+chart('''
+      digraph {
+      Big_shark -> Tuna
+      Tuna -> Mackerel
+      Mackerel -> Small_fishes
+      Small_fishes -> Shrimp
+      }
+''')
