@@ -96,3 +96,7 @@ import altair as alt
 df = pd.DataFrame(np.random.randn(500, 3), columns=['x', 'y', 'z'])
 chart = alt.Chart(df).mark_circle().encode(    x='x', y='y', size='z', color='z', tooltip=['x', 'y', 'z'])
 st.altair_chart(chart, use_container_width=True)
+
+import streamlit as st
+import graphvizst.graphviz_
+chart('''    digraph {        Big_shark -> Tuna        Tuna -> Mackerel        Mackerel -> Small_fishes        Small_fishes -> Shrimp    }''')
