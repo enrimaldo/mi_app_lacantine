@@ -54,3 +54,6 @@ st.error("Error occurred")
 st.warning("This is a warning")
 st.info("It's easy to build a Streamlit app")
 st.exception(RuntimeError("RuntimeError exception"))
+
+st.sidebar.title("Sidebar Title")
+st.sidebar.markdown("This is the sidebar content")
