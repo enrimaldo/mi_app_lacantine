@@ -26,3 +26,7 @@ st.subheader("This is the subheader")
 st.caption("This is the caption")
 st.code("x = 2021")
 st.latex(r''' a+a r^1+a r^2+a r^3 ''')
+
+st.image("kid.jpg", caption="A kid playing")
+st.audio("audio.mp3")
+st.video("video.mp4")
