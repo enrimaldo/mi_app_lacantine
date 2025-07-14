@@ -61,8 +61,9 @@ st.sidebar.markdown("This is the sidebar content")
 with st.container():
     st.write("This is inside the container")
 
-import streamlit as stimport
-import matplotlib.pyplot as pltimport
-import numpy as nprand = np.random.normal(1, 2, size=20)
+import streamlit as st
+import matplotlib.pyplot as plt
+import numpy as np
+rand = np.random.normal(1, 2, size=20)
 fig, ax = plt.subplots()ax.hist(rand, bins=15)
 st.pyplot(fig)
